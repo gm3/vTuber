@@ -3,7 +3,7 @@
 ![](https://i.imgur.com/2kgB34a.jpg)
 
 ## Summery
-This is an asset pack for doing virtual productions. You can apply these assets and workflows to your games, or vr simulations to capture multi-camera realtime footage from within a video game running Unity3d. This package would be a good starting point for anyone interested in a do-it-yourself approach to making virtual productions inside Unity. 
+This is an asset pack for doing virtual productions. You can apply these assets and workflows to your games, or vr simulations to capture multi-camera realtime footage from within a video game running Unity3d. This package would be a good starting point for anyone interested in a do-it-yourself approach to making virtual productions inside Unity. If you would liek to support this project please donate to http://streamlabs.com/boomboxheads to help cover development costs, much love!
 
 Inside Unity, you can import / create your own set and then use this camera system to help you speed up production with access to 9 cameras, and 12 overlay slides.
 
