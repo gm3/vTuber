@@ -60,7 +60,7 @@ VRChat SDK will be needed to use the Template packages (for Multiplayer VR Build
 
 The camera control script is very basic to get you started with virtual prodcutions. They were coded in a way to make it easier to port to VRChat / uDon / uSharp. (certain functions and classes are not available inside VRChat SDK3)
 
-I will be uploading the VRChat builds for SDK2 and uDon Soon.
+VRC SDK2 Complete Project https://drive.google.com/file/d/15jAm3EPSTKnkhMjjMzsJxeEzn09iHol_/view?usp=sharing
 
 ## Versions Of This Camera System
 There are different versions of this suite. This is the BOILERPLATE version that will run in the Editor and in Play Mode to demonstrate the controls of the camera system and workflow of a virtual studio and designed to be extended. 
