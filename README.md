@@ -33,12 +33,8 @@ Slides (Use Numeric Keypad)
 * L - Camera Light
 * G - Greenscreen
 * M - Animate TV Down
-
-* P - Camera Previews Toggle (Legacy)
-* T - Studio Lights Toggle (Legacy)
-* R - Realtime Reflection Probe (in legacy project)
-* U - Toggle All Cameras (in legacy project)
 * / - Zoom
+
 
 ## Camera Controls
 When the keyboard controls are pressed (1-9) the camera seleted will be Set to Active, while the others are set to Inactive. This will feed the main camera output(render texture) The camera previews can be seen on the camera preview panel using Render textures as well( at a lower resolution for optimization. ) The camera previews are a duplicate of the main camera with all of the exact same parameters, except they feed a render texture so that you can preview the cameras before switching.
