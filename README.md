@@ -1,9 +1,10 @@
 # vTuber-Virtual-Production-Studio-Assets
 
 ![](https://i.imgur.com/2kgB34a.jpg)
+(Legacy Asset Pack, Please see updates)
 
 ## Summery
-This is an asset pack for doing virtual productions. You can apply these assets and workflows to your games, or vr simulations to capture multi-camera realtime footage from within a video game running Unity3d. This package would be a good starting point for anyone interested in a do-it-yourself approach to making virtual productions inside Unity. If you would liek to support this project please donate to http://streamlabs.com/boomboxheads to help cover development costs, if you are a cryptohomie my ETH addy is 0x670A6EB62f5146d4B3B40C7b58AA31d175E3d6Fb much love!
+This is an asset pack for doing virtual productions. You can apply these assets and workflows to your games, or vr simulations to capture multi-camera realtime footage from within a video game running Unity3d. This package would be a good starting point for anyone interested in a do-it-yourself approach to making virtual productions inside Unity. If you would like to support this project please donate to http://streamlabs.com/boomboxheads to help cover development costs, if you are a cryptohomie my ETH addy is 0x670A6EB62f5146d4B3B40C7b58AA31d175E3d6Fb much love!
 
 Inside Unity, you can import / create your own set and then use this camera system to help you speed up production with access to 9 cameras, and 12 overlay slides.
 
@@ -12,20 +13,26 @@ Included is the this package are the assets to make a full studio environment se
 
 There are no avatars included, but this package is a great starting point to create a virtual world to produce content on the platform you would like to create content on. 
 
+UPDATE: THe original project(with Camera Crane and Studio Assets) is now Legacy, and I provide an updated link below to the new project I use to make virtual proudtions. It is much cleaner, optimized and bunch of updates. Please use that one while I update these docs, and port the project to uDon and create the other versions. But if for some reason you still need the old legacy project for a project you were working on, I will keep that link posted here. Thank you!
 
-## Instructions 
-(C# control system included in _assets version runs in the Editor when you push Play)
+
+## Instructions (Keyboard Controls for PC User)
 * 1-9 keys will swap between cameras
 * Minus Key (-) goes to Overlay mode to display 
 
 Slides (Use Numeric Keypad)
 * 0-9, (.), (+) to change slides
+
 * F - Map Cam To Screen
-* R - Realtime Reflection Probe (in legacy project)
 * L - Camera Light
+* G - Greenscreen
+* M - Animate TV Down
+
+* P - Camera Previews Toggle (Legacy)
+* T - Studio Lights Toggle (Legacy)
+* R - Realtime Reflection Probe (in legacy project)
 * U - Toggle All Cameras (in legacy project)
-* P - Camera Previews Toggle
-* T - Studio Lights Toggle
+* / - Zoom
 
 ## Camera Controls
 When the keyboard controls are pressed (1-9) the camera seleted will be Set to Active, while the others are set to Inactive. This will feed the main camera output(render texture) The camera previews can be seen on the camera preview panel using Render textures as well( at a lower resolution for optimization. ) The camera previews are a duplicate of the main camera with all of the exact same parameters, except they feed a render texture so that you can preview the cameras before switching.
