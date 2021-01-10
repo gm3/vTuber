@@ -16,14 +16,14 @@ There are no avatars included, but this package is a great starting point to cre
 ## Instructions 
 (C# control system included in _assets version runs in the Editor when you push Play)
 * 1-9 keys will swap between cameras
-* 0 goes to Overlay mode to display 
+* Minus Key (-) goes to Overlay mode to display 
 
 Slides (Use Numeric Keypad)
 * 0-9, (.), (+) to change slides
 * F - Map Cam To Screen
-* R - Realtime Reflection Probe
+* R - Realtime Reflection Probe (in legacy project)
 * L - Camera Light
-* U - Toggle All Cameras
+* U - Toggle All Cameras (in legacy project)
 * P - Camera Previews Toggle
 * T - Studio Lights Toggle
 
@@ -38,11 +38,11 @@ Depending on the platform you are planning to work on. The approach will be diff
 It is common to use many platforms to create a virtual production.
 
 ## Slides / Overlay
-This system was designed with presentations in mind so we have an extra camera that renders planes in front of a camera to create the illusion of an Overlay by pushing 0. It is sort of a work around, and if you would like to extend or make this package better or more optimised, please feel free to submit a request. Thanks!
+This system was designed with presentations in mind so we have an extra camera that renders planes in front of a camera to create the illusion of an Overlay by pushing (-) Minus Key. It is sort of a work around, and if you would like to extend or make this package better or more optimised, please feel free to submit a request. Thanks!
 
-We swap out 12 different Slides(show/hide gameObjects) using the numeric keypad and also the (.) key and the (+) key. 
+We swap out 12 different Slides(show/hide gameObjects) using the numeric keypad. 
 
-You can swap out the pictures of the slides before building the production, by editing the materials. We import jpegs, and add them to the respective materials before we do the production. A possible extention to this would be to use a URLLoader to have dynamic materials and slides. 
+You can swap out the pictures of the slides before building the production by changing the textures in the SLIDES folder, by editing the materials. We import jpegs, and add them to the respective materials before we do the production. A possible extention to this would be to use a URLLoader to have dynamic materials and slides. 
 
 ## Arranging The Cameras
 Move the cameras (via the Parent Object) and feel free to animate or extend the cameras to do even more things like add more scripts and functionality as needed. If the camera are designed to be moved as rigid body, make sure to put the rigid body, and pickup scripts on the parent object to maintain the camera heirchy. Arrange the cameras around your set by translating the cameras manually, and checking the camera preview object to see how it looks in frame.
@@ -54,26 +54,26 @@ Because of the way the camera previews work, you should only move the Master Roo
 If you would like to hide / show things in the camera output, you would setup layers and use camera culling with a "SeenByCamera" layer and "GreenScreen" culling layers for teh reflection probe not to reflect the greenscreens.
 
 ## Dependencies
-This .unitypackage was built on Unity 2018.4.20f1 (with VRChat in mind)
-The cameras use some "movement" scritps from the Standarad Assets (https://assetstore.unity.com/packages/essentials/asset-packs/standard-assets-for-unity-2017-3-32351)
-VRChat SDK will be needed to use the Template packages (for Multiplayer VR Builds)
+This was built on Unity **2018.4.20f1** (with VRChat in mind)
+The cameras use some "movement" scritps from the **Standarad Assets** that was on the Unity Asset Store.
+(https://assetstore.unity.com/packages/essentials/asset-packs/standard-assets-for-unity-2017-3-32351)
+**VRChat SDK** will be needed to use the Template packages (for Multiplayer VR Builds)
+These studios work in VRChat and include a modified version of the "Hangout Player" that can be found at VRCPrefabs Forum. 
 
 The camera control script is very basic to get you started with virtual prodcutions. They were coded in a way to make it easier to port to VRChat / uDon / uSharp. (certain functions and classes are not available inside VRChat SDK3)
 
-VRC SDK2 Complete Project https://drive.google.com/file/d/15jAm3EPSTKnkhMjjMzsJxeEzn09iHol_/view?usp=sharing
+*Legacy* VRC SDK2 Complete Project (With All Assets) https://drive.google.com/file/d/15jAm3EPSTKnkhMjjMzsJxeEzn09iHol_/view?usp=sharing
 
-![](https://i.imgur.com/r1Ua9Ad.jpg)
-UPDATED VERSION: vTuber Cameras Podcast Shell SDK2 VRChat Unity Project 2018.20f1 https://drive.google.com/file/d/1Z_LpFNJ2HOvwn2v_7CFaShjw-OWHRc0T/view?usp=sharing
-This version is the most updated version. I took out the camera crane, and slimmed down the project to make it easier to do podcast type of productions. If you are looking for "slim version" then start with this one. It's actually much better, since I cleaned up the project, and made renamed all the objects, added a better UI, and overall made it run more optimized. If you have any questions please just reach out and ask me. Cheers!
+
+**UPDATED VERSION**: vTuber Cameras Podcast Shell SDK2 VRChat Unity Project 2018.20f1 https://drive.google.com/file/d/1Z_LpFNJ2HOvwn2v_7CFaShjw-OWHRc0T/view?usp=sharing
+This version is the most updated version. I took out the camera crane, and slimmed down the project to make it easier to do podcast type of productions. If you are looking for "slim version" then start with this one. It's actually much better, since I cleaned up the project, and made renamed all the objects, added a better UI, and overall made it run more optimized. If you have any questions please just reach out and ask me. Cheers!![](https://i.imgur.com/r1Ua9Ad.jpg)
 
 
 ## Versions Of This Camera System
 There are different versions of this suite. This is the BOILERPLATE version that will run in the Editor and in Play Mode to demonstrate the controls of the camera system and workflow of a virtual studio and designed to be extended. 
 
-## Template VRChat MultiplayerStudio 
-We have a template vTuber Studio availible as a drag and drop prefab, that works with VRC SDK2. With this prefab you can make your own production studio inside VRChat by customizing the enviroment and uploading to VRChat Servers.
 
-## Custom VRChat Multiplayer Studio
+## Do you need a Custom Studio?
 Our crew is available for comission to create CUSTOM VR Production studios for podcasts, music videos, films, concerts, events, and other productions. We will curate models based on the budget and deisgn, light, and customize your production studio to meet your needs. If you have any custom productions in mind, please feel free to reach out! @godfreymeyer
 
 ## Examples
@@ -91,4 +91,4 @@ Please subscribe to my youtube page http://www.youtube.com/godfreymeyer and chec
 
 ## Contact
 
-Please check out some our productions on [Youtube](https://www.youtube.com/results?search_query=godfrey+meyer&page=&utm_source=opensearch) "Godfrey Meyer" or [#boomboxhead](https://www.youtube.com/results?search_query=%23boomboxhead) to find videos. If you have any questions please feel free to reach out to me #boomboxhead on discord `painterpainting#5603`. Have fun and link me to the videos you make, thanks!
+Please check out some our productions on [Youtube](https://www.youtube.com/results?search_query=godfrey+meyer&page=&utm_source=opensearch) "Godfrey Meyer" or [#boomboxhead](https://www.youtube.com/results?search_query=%23boomboxhead) to find videos. If you have any questions please feel free to reach out to me #boomboxhead on discord `boomboxhead#5796`. @godfreymeyer on twitter. Have fun and link me to the videos you make, thanks!
