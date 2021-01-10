@@ -4,16 +4,22 @@
 (Legacy Asset Pack, Please see updates)
 
 ## Summery
-This is an asset pack for doing virtual productions. You can apply these assets and workflows to your games, or vr simulations to capture multi-camera realtime footage from within a video game running Unity3d. This package would be a good starting point for anyone interested in a do-it-yourself approach to making virtual productions inside Unity. If you would like to support this project please donate to http://streamlabs.com/boomboxheads to help cover development costs, if you are a cryptohomie my ETH addy is 0x670A6EB62f5146d4B3B40C7b58AA31d175E3d6Fb much love!
+This is a Unity Project file for doing virtual productions in VRChat. It features a system with 9 cameras, and 12 overlay slides. You can apply these assets and workflows to your worlds to capture multi-camera realtime footage from within vrchat, podcasts, and music videos. This package would be a good starting point for anyone interested in a do-it-yourself approach to making virtual productions. The picture is the "legacy version" and the updated version is posted below. If you have any questions please let me know!
 
-Inside Unity, you can import / create your own set and then use this camera system to help you speed up production with access to 9 cameras, and 12 overlay slides.
 
-## What is Included
-Included is the this package are the assets to make a full studio environment setup for virtual production in Unity3d. We arrage the multi-camera assets to fit each unique production. (podcast, film, vfx, performance, vr room, stream, vTubing) 
+I am working on this by myself with help from my friends, currently just moved, but I plan on updating this package as time goes on with this work evolving it into Web3 stacks. If you would like to support this project please donate to http://streamlabs.com/boomboxheads to help cover development costs, if you are into crypto my ETH addy is 0x670A6EB62f5146d4B3B40C7b58AA31d175E3d6Fb much love!
 
-There are no avatars included, but this package is a great starting point to create a virtual world to produce content on the platform you would like to create content on. 
 
-UPDATE: THe original project(with Camera Crane and Studio Assets) is now Legacy, and I provide an updated link below to the new project I use to make virtual proudtions. It is much cleaner, optimized and bunch of updates. Please use that one while I update these docs, and port the project to uDon and create the other versions. But if for some reason you still need the old legacy project for a project you were working on, I will keep that link posted here. Thank you!
+## Downloads and Dependencies
+-This was built on Unity **2018.4.20f1** (with VRChat in mind)
+-The cameras use some "movement" scritps from the **Standarad Assets** that was on the Unity Asset Store.
+(https://assetstore.unity.com/packages/essentials/asset-packs/standard-assets-for-unity-2017-3-32351)
+-**VRChat SDK** will be needed to use the Template packages (for Multiplayer VR Builds)
+These studios work in VRChat and include a modified version of the "Hangout Player" that can be found at VRCPrefabs Forum. 
+
+**UPDATED VERSION**: vTuber Cameras Podcast Shell SDK2 VRChat Unity Project 2018.20f1 https://drive.google.com/file/d/1Z_LpFNJ2HOvwn2v_7CFaShjw-OWHRc0T/view?usp=sharing
+This version is the most updated version. If you have any questions please just reach out and ask me. Cheers!![](https://i.imgur.com/r1Ua9Ad.jpg)
+Test the world here: https://vrchat.com/home/launch?worldId=wrld_9d9f2bbc-20b2-4826-86d2-689e200a14fd&instanceId=0
 
 
 ## Instructions (Keyboard Controls for PC User)
@@ -60,31 +66,17 @@ Because of the way the camera previews work, you should only move the Master Roo
 ## Camera Culling / Hiding Objects From Cameras
 If you would like to hide / show things in the camera output, you would setup layers and use camera culling with a "SeenByCamera" layer and "GreenScreen" culling layers for teh reflection probe not to reflect the greenscreens.
 
-## Dependencies
-This was built on Unity **2018.4.20f1** (with VRChat in mind)
-The cameras use some "movement" scritps from the **Standarad Assets** that was on the Unity Asset Store.
-(https://assetstore.unity.com/packages/essentials/asset-packs/standard-assets-for-unity-2017-3-32351)
-**VRChat SDK** will be needed to use the Template packages (for Multiplayer VR Builds)
-These studios work in VRChat and include a modified version of the "Hangout Player" that can be found at VRCPrefabs Forum. 
-
-The camera control script is very basic to get you started with virtual prodcutions. They were coded in a way to make it easier to port to VRChat / uDon / uSharp. (certain functions and classes are not available inside VRChat SDK3)
-
-*Legacy* VRC SDK2 Complete Project (With All Assets) https://drive.google.com/file/d/15jAm3EPSTKnkhMjjMzsJxeEzn09iHol_/view?usp=sharing
-
-
-**UPDATED VERSION**: vTuber Cameras Podcast Shell SDK2 VRChat Unity Project 2018.20f1 https://drive.google.com/file/d/1Z_LpFNJ2HOvwn2v_7CFaShjw-OWHRc0T/view?usp=sharing
-This version is the most updated version. I took out the camera crane, and slimmed down the project to make it easier to do podcast type of productions. If you are looking for "slim version" then start with this one. It's actually much better, since I cleaned up the project, and made renamed all the objects, added a better UI, and overall made it run more optimized. If you have any questions please just reach out and ask me. Cheers!![](https://i.imgur.com/r1Ua9Ad.jpg)
-
-
-## Versions Of This Camera System
-There are different versions of this suite. This is the BOILERPLATE version that will run in the Editor and in Play Mode to demonstrate the controls of the camera system and workflow of a virtual studio and designed to be extended. 
-
 
 ## Do you need a Custom Studio?
 Our crew is available for comission to create CUSTOM VR Production studios for podcasts, music videos, films, concerts, events, and other productions. We will curate models based on the budget and deisgn, light, and customize your production studio to meet your needs. If you have any custom productions in mind, please feel free to reach out! @godfreymeyer
 
 ## Examples
 Please check out the examples and tutorials on my youtube page to get familiar on the workflow on virtual prodcutions. These asset can be ported to work in any game engine, and the basic camera control scipts have been written in C# and would have to be ported to work on other platforms tah Unity. Using platforms like VRChat, we have filmed many music videos, podcasts and events in VR using this system as a base. It has sped up production when making rooms or builds for vTubing, vPodcasts, and vFilms, and endless "over the network, real-time collaborative" projects. 
+
+## Legacy Versions Of This Camera System
+There are different versions of this suite. If you had built a studio on the older version. Here is a link to that project, but I suggest you update to the new system, I will not be supporting the Legacy System anymore unfortunatly. 
+*Legacy* VRC SDK2 Complete Project (With All Assets) https://drive.google.com/file/d/15jAm3EPSTKnkhMjjMzsJxeEzn09iHol_/view?usp=sharing
+Test Legacy World Here: https://vrchat.com/home/launch?worldId=wrld_9842d4fc-0c40-4e00-887e-5f2ef596c65c&instanceId=0
 
 ## Web Resources:
 http://Unity3d.com/
