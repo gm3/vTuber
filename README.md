@@ -62,6 +62,11 @@ The camera control script is very basic to get you started with virtual prodcuti
 
 VRC SDK2 Complete Project https://drive.google.com/file/d/15jAm3EPSTKnkhMjjMzsJxeEzn09iHol_/view?usp=sharing
 
+![](https://i.imgur.com/r1Ua9Ad.jpg)
+UPDATED VERSION: vTuber Cameras Podcast Shell SDK2 VRChat Unity Project 2018.20f1 https://drive.google.com/file/d/1Z_LpFNJ2HOvwn2v_7CFaShjw-OWHRc0T/view?usp=sharing
+This version is the most updated version. I took out the camera crane, and slimmed down the project to make it easier to do podcast type of productions. If you are looking for "slim version" then start with this one. It's actually much better, since I cleaned up the project, and made renamed all the objects, added a better UI, and overall made it run more optimized. If you have any questions please just reach out and ask me. Cheers!
+
+
 ## Versions Of This Camera System
 There are different versions of this suite. This is the BOILERPLATE version that will run in the Editor and in Play Mode to demonstrate the controls of the camera system and workflow of a virtual studio and designed to be extended. 
 
