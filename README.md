@@ -3,7 +3,7 @@
 ![](https://i.imgur.com/2kgB34a.jpg)
 (Legacy Asset Pack, Please see updates)
 
-## Summery
+## Summary
 This is a Unity Project file for doing virtual productions in VRChat. It features a system with 9 cameras, and 12 overlay slides. You can apply these assets and workflows to your worlds to capture multi-camera realtime footage from within vrchat, podcasts, and music videos. This package would be a good starting point for anyone interested in a do-it-yourself approach to making virtual productions. The picture is the "legacy version" and the updated version is posted below. If you have any questions please let me know!
 
 
