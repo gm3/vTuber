@@ -4,7 +4,7 @@
 
 
 ## Summary
-This is a Unity Project file for doing virtual productions in VRChat. It features a system with 9 cameras, and 12 overlay slides. You can apply these assets and workflows to your worlds to capture multi-camera realtime footage from within vrchat, podcasts, and music videos. This package would be a good starting point for anyone interested in a do-it-yourself approach to making virtual productions. The picture is the "legacy version" and the updated version is posted below. If you have any questions please let me know!
+This is a project for doing virtual productions in VRChat. There are 2 versions, the stand alone C# version(.unity package), and also a complete VRChat Projet File. It features a system with 9 cameras, and 12 overlay slides. You can apply these assets and workflows to your worlds to capture multi-camera realtime footage from within vrchat, podcasts, and music videos. This package would be a good starting point for anyone interested in a do-it-yourself approach to making virtual productions. The picture is the "legacy version" and the updated version is posted below. If you have any questions please let me know!
 
 
 I am working on this by myself with help from my friends, currently just moved, but I plan on updating this package as time goes on with this work evolving it into Web3 stacks. If you would like to support this project please donate to http://streamlabs.com/boomboxheads to help cover development costs, if you are into crypto my ETH addy is 0x670A6EB62f5146d4B3B40C7b58AA31d175E3d6Fb much love!
