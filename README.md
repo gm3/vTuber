@@ -17,10 +17,6 @@ I am working on this by myself with help from my friends, currently just moved, 
 -**VRChat SDK** will be needed to use the Template packages (for Multiplayer VR Builds)
 These studios work in VRChat and include a modified version of the "Hangout Player" that can be found at VRCPrefabs Forum. 
 
-**UPDATED VERSION**: vTuber Cameras Podcast Shell SDK2 VRChat Unity Project 2018.20f1 https://drive.google.com/file/d/1Z_LpFNJ2HOvwn2v_7CFaShjw-OWHRc0T/view?usp=sharing
-This version is the most updated version. If you have any questions please just reach out and ask me. Cheers!![](https://i.imgur.com/r1Ua9Ad.jpg)
-Test the world here: https://vrchat.com/home/launch?worldId=wrld_9d9f2bbc-20b2-4826-86d2-689e200a14fd&instanceId=0
-
 
 ## Instructions (Keyboard Controls for PC User)
 * 1-9 keys will swap between cameras
