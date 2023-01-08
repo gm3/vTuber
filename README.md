@@ -1,4 +1,4 @@
-# vTuber-Virtual-Production-Studio-Assets
+# vTuber-Virtual-Production-Studio-Assets (Depreciated)
 
 ![](https://i.imgur.com/2kgB34a.jpg)
 
@@ -61,22 +61,6 @@ Because of the way the camera previews work, you should only move the Master Roo
 
 ## Camera Culling / Hiding Objects From Cameras
 If you would like to hide / show things in the camera output, you would setup layers and use camera culling with a "SeenByCamera" layer. Also if you use greenscreen consider culling it from the refelction probe.
-
-
-## Do you need a Custom Studio?
-Our crew is available for comission to create CUSTOM VR Production studios for podcasts, music videos, films, concerts, events, and other productions. We will curate models based on the budget and deisgn, light, and customize your production studio to meet your needs. If you have any custom productions in mind, please feel free to reach out! @godfreymeyer
-
-## Examples
-Please check out the examples and tutorials on my youtube page to get familiar on the workflow on virtual prodcutions. These asset can be ported to work in any game engine, and the basic camera control scipts have been written in C# and would have to be ported to work on other platforms than Unity. I am currently porting this over to WebXR with the help of some friends. Using platforms like VRChat, we have filmed many music videos, podcasts and events in VR using this system as a base. It has sped up production when making rooms or builds for vTubing, vPodcasts, and vFilms, and endless "over the network, real-time collaborative" projects. 
-
-## Legacy Versions Of This Camera System
-There are different versions of this suite. If you had built a studio on the older version. Here is a link to that project, but I suggest you update to the new system, I will not be supporting the Legacy System anymore unfortunatly. 
-*Legacy* VRC SDK2 Complete Project (With All Assets) https://drive.google.com/file/d/15jAm3EPSTKnkhMjjMzsJxeEzn09iHol_/view?usp=sharing
-Test Legacy World Here: https://vrchat.com/home/launch?worldId=wrld_9842d4fc-0c40-4e00-887e-5f2ef596c65c&instanceId=0
-
-**UPDATED VERSION**: vTuber Cameras Podcast Shell SDK2 VRChat Unity Project 2018.20f1 https://drive.google.com/file/d/1Z_LpFNJ2HOvwn2v_7CFaShjw-OWHRc0T/view?usp=sharing
-This version is the most updated version. If you have any questions please just reach out and ask me. Cheers!![](https://i.imgur.com/r1Ua9Ad.jpg)
-Test the world here: https://vrchat.com/home/launch?worldId=wrld_9d9f2bbc-20b2-4826-86d2-689e200a14fd&instanceId=0
 
 
 ## Web Resources:
