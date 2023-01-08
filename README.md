@@ -1,8 +1,5 @@
 # vTuber-Virtual-Production-Studio-Assets (Depreciated And No Longer Works)
 
-![](https://i.imgur.com/2kgB34a.jpg)
-
-
 ## Summary
 This is a project for doing virtual productions in VRChat. There are 2 versions, the stand alone C# version(.unity package), and also a complete VRChat Projet File. It features a system with 9 cameras, and 12 overlay slides. You can apply these assets and workflows to your worlds to capture multi-camera realtime footage from within vrchat, podcasts, and music videos. This package would be a good starting point for anyone interested in a do-it-yourself approach to making virtual productions. The picture is the "legacy version" and the updated version is posted below. If you have any questions please let me know!
 
