@@ -1,4 +1,4 @@
-# vTuber-Virtual-Production-Studio-Assets (Depreciated)
+# vTuber-Virtual-Production-Studio-Assets (Depreciated And No Longer Works)
 
 ![](https://i.imgur.com/2kgB34a.jpg)
 
@@ -59,16 +59,3 @@ Because of the way the camera previews work, you should only move the Master Roo
 If you would like to hide / show things in the camera output, you would setup layers and use camera culling with a "SeenByCamera" layer. Also if you use greenscreen consider culling it from the refelction probe.
 
 
-## Web Resources:
-http://Unity3d.com/
-http://vrchat.com/
-https://assetstore.unity.com/packages/essentials/asset-packs/standard-assets-for-unity-2017-3-32351
-
-Special thanks to Jin, the VR Devs, and the Web XR community for helping in various way to make this possible.
-
-Please subscribe to my youtube page http://www.youtube.com/godfreymeyer and check out more on my guthub github.com/gm3 Much love!
-
-
-## Contact
-
-Please check out some our productions on [Youtube](https://www.youtube.com/results?search_query=godfrey+meyer&page=&utm_source=opensearch) "Godfrey Meyer" or [#boomboxhead](https://www.youtube.com/results?search_query=%23boomboxhead) to find videos. If you have any questions please feel free to reach out to me #boomboxhead on discord `boomboxhead#5796`. @godfreymeyer on twitter. Have fun and link me to the videos you make, thanks!
